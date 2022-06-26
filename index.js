@@ -156,7 +156,7 @@ function checkGameOver() {
     alert("GameOVER!!!");
     clearInterval(interval);
     interval = null;
-   
+   location.reload();
     setVariables();
   }
 }
